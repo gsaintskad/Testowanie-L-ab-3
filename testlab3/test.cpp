@@ -16,6 +16,7 @@ TEST(FizzBuzzTest, FizzBuzzResult) {
 	EXPECT_EQ(fizzbuzz(45), "fizzbuzz");
 	EXPECT_EQ(fizzbuzz(15), "fizzbuzz");
 	EXPECT_EQ(fizzbuzz(300), "fizzbuzz");
+	EXPECT_EQ(fizzbuzz(0), "fizzbuzz");
 }
 TEST(FizzBuzzTest, NULLResult) {
 	EXPECT_EQ(fizzbuzz(42358), "NULL");

@@ -4,12 +4,12 @@
 #include <iostream>
 
 #include"fizzbuzz.h"
-std::string fizzbuzz(int inp_num)
+std::string fizzbuzz(int num)
 {
-	long double num = static_cast<long double>(inp_num);
+	
 
-	long double remainderOf3 = num / 3 - static_cast<int>(num / 3);
-	long double remainderOf5 = num / 5 - static_cast<int>(num / 5);
+	int remainderOf3 = num % 3 ;
+	int remainderOf5 = num % 5 ;
 
 
 
